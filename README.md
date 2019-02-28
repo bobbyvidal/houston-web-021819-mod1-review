@@ -17,32 +17,32 @@
 8. Test code
 
 ## customer
-- Customer.new() should create a new customer with a name and account_type
+<!-- - Customer.new() should create a new customer with a name and account_type
 
-- customer.name and customer.account_type should work
+- customer.name and customer.account_type should work -->
 
-- Customer.all should return all customer instances
+<!-- - Customer.all should return all customer instances -->
 
-- customer.accounts should return all account that belong to the customer
-
+<!-- - customer.accounts should return all account that belong to the customer -->
+<!-- 
 - customer.banks should return all banks that are associated with the customer
 
-- customer.balance should return total balance from all the accounts from all the bank that are associated with the customer
+- customer.balance should return total balance from all the accounts from all the bank that are associated with the customer -->
 
 ## bank
-- Bank.new() should create a new bank with a name
+<!-- - Bank.new() should create a new bank with a name
 
 - bank.name should work
 
-- Bank.all should return all bank instances
+- Bank.all should return all bank instances -->
 
-- bank.account should return all account that belong to the bank
+<!-- - bank.account should return all account that belong to the bank -->
 
 - bank.customers should return all of the Customers that are associated with the bank
 
 ## account
-- account.new() should create a new account that takes an customer instance, bank instance and balance
+<!-- - account.new() should create a new account that takes an customer instance, bank instance and balance
 
 - account.customer, account.bank and account.balance should work
 
-- Account.all should return all account instances
+- Account.all should return all account instances -->
